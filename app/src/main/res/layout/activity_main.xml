@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.pp_lab2_struct.MainActivity">
+
+    <Button
+        android:onClick="adapter"
+        android:id="@+id/adapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="ADAPTER"/>
+
+    <Button
+        android:onClick="decorator"
+        android:id="@+id/decorator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="DECORATOR"/>
+
+
+    <Button
+        android:onClick="proxy"
+        android:id="@+id/proxy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="PROXY"/>
+
+    <Button
+        android:onClick="composite"
+        android:id="@+id/composite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="COMPOSITE"/>
+
+    <Button
+        android:onClick="bridge"
+        android:id="@+id/bridge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="BRIDGE"/>
+
+    <Button
+        android:onClick="flyweight"
+        android:id="@+id/flyweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="FLYWEIGHT"/>
+
+    <Button
+        android:onClick="facade"
+        android:id="@+id/facade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="FACADE"/>
+
+</LinearLayout>
